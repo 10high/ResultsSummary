@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./Utilities/reset.css"
 import "./index.css";
 import { Result } from "./components/result/result";
 import { SummaryPanel } from "./components/summary/summaryPanel/summaryPanel";
@@ -14,5 +15,5 @@ ReactDOM.render(
             </div>
         </div>
     </main>,
-    document.getElementById("main"));
+    document.getElementById("root"));
 

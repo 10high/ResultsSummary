@@ -1,6 +1,21 @@
+html {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
 #root {
     display: flex;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+.imposter {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
 }
